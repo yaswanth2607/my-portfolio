@@ -22,6 +22,9 @@ function NavBar() {
             key={`${icon.label}-icon`}
             alt={`${icon.label}-icon`}
             data-testid={`${icon.label}-icon`}
+            onClick={() => {
+              window.open(icon.path, "_blank");
+            }}
           />
         ))}
       </TabContainer>

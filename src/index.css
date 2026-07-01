@@ -1,5 +1,4 @@
 html{
-  margin: 0px 16px;
 }
 
 #root {
@@ -13,6 +12,6 @@ html{
 body {
   background: #F6F6F6;
   height: 100%;
-  margin-top: 0px;
+  margin: 0px;
 }
 
